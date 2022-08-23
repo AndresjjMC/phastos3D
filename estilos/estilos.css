@@ -6,25 +6,33 @@
 /* Header */
 .logo{
     font-size: 40px;
+    margin: 20px;
     border: 2px solid #F1F1E6;
     background-color: rgba(51, 51, 51, 0.7);
     border-radius: 30px;
     padding: 10px;
     color: #7E364F;
-    text-decoration: none;
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
 }
 .logo span{
     color: #F1F1E6;
 }
 .barraNav{
     background-color: #005665;
+    height: 150px;
+}
+.navItems{
+    font-size: 30px;
 }
 /* Fin Header */
 /* Body */
 .fondo{
     background-color: #627B82;
     /* para que se vea el 100% de la pantalla del navegador */
-    min-height: calc(100vh);
+    
 }
 h1{
     text-align: center;
@@ -34,6 +42,11 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Seccion Inicio */
+.jumbotron h2{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #005665;
+}
 .carousel-inner{
     object-fit: cover;
 }
@@ -126,47 +139,10 @@ h1{
 
 /* Fin Seccion Nosotros */
 /* Seccion Contacto */
-.infoContacto p{
-    color: #fff;
-    width: 500px;
-    height: 250px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-    position: relative;
-    top: 70px;
-    left: 120px;
+.formulario{
+    border: 5px solid #F1F1E6 ;
 }
-.maps{
-    float: left;
-    position: relative;
-    top: 80px;
-    left: 190px;
-}
-/* .formulario{
-    background-color: #0D8389;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    float: right;
-    position: relative;
-    bottom: 150px;
-    right: 500px;
-    width: 500px;
-    height: auto;
-    padding: 30px;
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    line-height: 1.5;
-} */
-.formulario input{
-    border-radius: 10px;
-    width: 200px;
-    height: 35px;
-}
-.comentarios{
-    border-radius: 10px;
-}
+
 /* Fin Seccion Contacto */
 /* Seccion Preguntas Frecuentes */
 .preguntas h3{

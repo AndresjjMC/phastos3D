@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.header{
+    background-color: #0D8389;
+    height: 150px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.sech{
+    width: 100%;
+}
+.logo{
+    align-self: center;
+    width: 150px;
+}
+.logo a{
+    border: 2px solid #BA577B;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 30px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.logo span{
+    color: #BA577B;
+}
+.logo a:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.barra{
+    width: 120px;
+    align-self: center;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+.barra li{
+    list-style: none;
+}
+.barra a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.barra a:hover{
+    color: rgb(87, 85, 85);
+}
+/* Fin Header */
+/* Body */
+.fondo{
+    background-color: #A0629E;
+    /* para que se vea el 100% de la pantalla del navegador */
+    min-height: calc(100vh);
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Seccion Inicio */
+.secm{
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-evenly;
+    border: 2px solid #333;
+    height: 200px;
+    width: 100%;
+}
+.call{
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.7);
+    border: 2px solid #0D8389;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.call h2{
+    font-size: 20px;
+}
+.call p{
+    font-size: 15px;
+    padding: 10px;
+}  
+.slide{
+    background-image: url(/multimedia/Captura.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Fin Seccion Inicio */
+/* Seccion Productos */
+.productos{
+    display: grid;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 30px;
+}
+.img{
+    width: 300px;
+    height: 250px;
+    background-color: #333;
+    border: 2px solid #333;
+}
+.img1{
+    background-image: url(../multimedia/armadilloArticulado3D.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img2{
+    background-image: url(../multimedia/babyGroot3D.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img3{
+    background-image: url(../multimedia/mate3D.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img4{
+    background-image: url(../multimedia/mateStich3d.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img5{
+    background-image: url(../multimedia/pharahOverwatch3D.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img6{
+    background-image: url(../multimedia/plantera3D.jpg);
+    background-size: cover;
+    background-position: center
+}
+.img7{
+    background-image: url(../multimedia/DecoracionAnillos.JPG);
+    background-size: cover;
+    background-position: center
+}
+.img8{
+    background-image: url(../multimedia/Jarron.JPG);
+    background-size: cover;
+    background-position: center
+}
+/* Fin Seccion Productos */
+/* Seccion Nosotros */
+.informacion{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 200px;
+}
+.secm{
+    border: 2px solid #333;
+}
+.historia{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.equipo{
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+}
+.imgNosotros{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-image: url(/multimedia/EquipoPhastos3D.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Fin Seccion Nosotros */
+/* Seccion Contacto */
+.infoContacto p{
+    color: #fff;
+    width: 500px;
+    height: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+.maps{
+    float: left;
+    position: relative;
+    top: 80px;
+    left: 190px;
+}
+/* .formulario{
+    background-color: #0D8389;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 500px;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+} */
+.formulario input{
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+}
+.comentarios{
+    border-radius: 10px;
+}
+/* Fin Seccion Contacto */
+/* Seccion Preguntas Frecuentes */
+.preguntas h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 30px ;
+}
+.preguntas p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+/* Fin Seccion Preguntas Frecuentes */
+/* Footer */
+.footer{
+    background-color: #0D8389;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px; 
+    align-content: center;  
+}
+.secf{
+    align-content: center; 
+
+}
+.horarios{
+    color: #fff;
+    font-size: 15px;
+    width: 100px;
+    height: auto;
+    margin: 10px ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.horarios p{
+    text-align: left;
+    line-height: 1.5;
+}
+.redes{
+    font-size: 20px;
+    width: 90px;
+    margin-left: 10px;
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.redes i{
+    color: #fff;
+}
+.logoFooter{
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.logoFooter a{
+    border: 2px solid #BA577B;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.logoFooter span{
+    color: #BA577B;
+}
+.derechos{
+    color: #fff;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-size: 12px;
+    align-self: center;
+    width: 200px;
+    height: auto;
+}
+/* Fin Footer */
+
+@media only screen and (min-width:992px){
+
+    /* Header */
+
+    .header{
+        justify-content: space-between;
+    }
+    .logo{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .logo a{
+        font-size: 40px;
+    }
+    .barra{
+        width: 650px;
+        align-self: flex-end;
+        margin-bottom: 20px;
+    }
+    .barra li{
+        display: inline;
+    }
+    .barra a{
+        font-size: 18px;
+    }
+    /* Fin Header */
+    h1{
+        font-size: 40px;
+    }
+    /* Seccion Inicio */
+
+    .call h2{
+        font-size: 30px;
+    }
+    .call p{
+        font-size: 20px;
+        padding: 15px;
+    }  
+
+    /* Fin Seccion Inicio */
+    /* Seccion Productos */
+    .productos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 300px);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+        
+    }
+    .img1{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .img2{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .img3{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .img4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .img5{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .img6{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+    .img7{
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+    .img8{
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+    /* Fin Seccion Productos */
+    /* Footer */
+
+    .horarios{
+        font-size: 30px;
+        width: 200px;
+        height:100px;
+        margin: 20px ;
+    }
+    .redes{
+        font-size: 30px;
+        width: 300px;
+        align-self: auto;
+    }
+    .redes i{
+        padding: 15px;
+    }
+    .logoFooter{
+        font-size: 40px;
+        align-self: center;
+        justify-self: center;
+    }
+    .derechos{
+        font-size: 30px;
+        align-self: flex-start;
+        width: 700px;
+        height: auto;
+    }
+
+    /* Fin Footer */
+}

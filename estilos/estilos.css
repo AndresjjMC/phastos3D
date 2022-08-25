@@ -13,6 +13,7 @@
     padding: 10px;
     color: #7E364F;
 }
+
 .logo:hover{
     transform: scale(1.2);
     transition: 0.7s;
@@ -22,7 +23,6 @@
 }
 .barraNav{
     background-color: #005665;
-    height: 150px;
 }
 .navItems{
     font-size: 30px;
@@ -141,6 +141,20 @@ h1{
 /* Seccion Contacto */
 .formulario{
     border: 5px solid #F1F1E6 ;
+    border-radius: 20px ;
+    max-width: 40%;
+}
+.formulario label{
+    color: #fff;
+    font-size: 20px;
+}
+.btn-secondary{
+    background-color: #F1F1E6 ;
+    color: #333;
+}
+.infoContacto p{
+    color: #fff;
+    font-size: 20px;
 }
 
 /* Fin Seccion Contacto */

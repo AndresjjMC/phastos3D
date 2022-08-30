@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.logo {
+  font-size: 40px;
+  margin: 20px;
+  border: 2px solid #F1F1E6;
+  background-color: rgba(51, 51, 51, 0.7);
+  border-radius: 30px;
+  padding: 10px;
+  color: #7E364F;
+  /* Fin Header */
+  /* Body */
+  /* Seccion Inicio */
+  /* Fin Seccion Inicio */
+  /* Footer */
+  /* Fin Footer */
+}
+.logo :hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+.logo span {
+  color: #F1F1E6;
+}
+.logo .barraNav {
+  background-color: #005665;
+}
+.logo .navItems {
+  font-size: 30px;
+}
+.logo .fondo {
+  background-color: #627B82;
+  /* para que se vea el 100% de la pantalla del navegador */
+}
+.logo h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #F1F1E6;
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo .jumbotron h2 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #005665;
+}
+.logo .carousel-inner {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.logo .horarios {
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+.logo .redes {
+  font-size: 30px;
+  width: 300px;
+  align-self: auto;
+}
+.logo .redes i {
+  padding: 15px;
+}
+.logo .logoFooter {
+  font-size: 40px;
+  align-self: center;
+  justify-self: center;
+}
+.logo .derechos {
+  font-size: 30px;
+  align-self: flex-start;
+  width: 700px;
+  height: auto;
+}/*# sourceMappingURL=estilos.css.map */

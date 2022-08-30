@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$color1: #005665;
+$color2: #627B82;
+$color3: #F1F1E6;
+$font1: Verdana, Geneva, Tahoma, sans-serif;
+
+/* Header */
+.logo{
+    font-size: 40px;
+    margin: 20px;
+    border: 2px solid $color3;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 30px;
+    padding: 10px;
+    color: #7E364F;
+    
+    :hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    }
+    span{
+    color: $color3;
+}
+.barraNav{
+    background-color: $color1;
+}
+.navItems{
+    font-size: 30px;
+}
+/* Fin Header */
+/* Body */
+.fondo{
+    background-color: $color2;
+    /* para que se vea el 100% de la pantalla del navegador */
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: $color3;
+    padding-top: 20px;
+    font-family: $font1;
+}
+/* Seccion Inicio */
+.jumbotron 
+    
+    h2{
+    font-size: 30px;
+    font-family: $font1;
+    color: $color1;
+}
+.carousel-inner{
+    object-fit: cover;
+}
+/* Fin Seccion Inicio */
+    /* Footer */
+
+    .horarios{
+        font-size: 30px;
+        width: 200px;
+        height:100px;
+        margin: 20px ;
+    }
+    .redes{
+        font-size: 30px;
+        width: 300px;
+        align-self: auto;
+        i{
+        padding: 15px;
+        }
+    }   
+    .logoFooter{
+        font-size: 40px;
+        align-self: center;
+        justify-self: center;
+    }
+    .derechos{
+        font-size: 30px;
+        align-self: flex-start;
+        width: 700px;
+        height: auto;
+    }
+
+    /* Fin Footer */
+}

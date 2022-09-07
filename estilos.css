@@ -13,12 +13,6 @@
   border-radius: 30px;
   padding: 10px;
   color: #7E364F;
-  /* Fin Header */
-  /* Body */
-  /* Seccion Inicio */
-  /* Fin Seccion Inicio */
-  /* Footer */
-  /* Fin Footer */
 }
 .logo :hover {
   transform: scale(1.2);
@@ -33,48 +27,98 @@
 .logo .navItems {
   font-size: 30px;
 }
-.logo .fondo {
+
+/* Fin Header */
+/* Body */
+.fondo {
   background-color: #627B82;
   /* para que se vea el 100% de la pantalla del navegador */
 }
-.logo h1 {
+
+h1 {
   text-align: center;
   font-size: 30px;
   color: #F1F1E6;
   padding-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.logo .jumbotron h2 {
+
+/* Seccion Inicio */
+.jumbotron h2 {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #005665;
 }
-.logo .carousel-inner {
+.jumbotron .carousel-inner {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.logo .horarios {
+
+/* Fin Seccion Inicio */
+.preg--15px {
+  font-size: 15px;
+  color: red;
+  background-color: #627B82;
+  width: 200px;
+  height: auto;
+}
+
+.preg--20px {
+  font-size: 20px;
+  color: orange;
+  background-color: #627B82;
+  width: 200px;
+  height: auto;
+}
+
+.preg--25px {
+  font-size: 25px;
+  color: green;
+  background-color: #627B82;
+  width: 200px;
+  height: auto;
+}
+
+.pregunta, .pregunta--nueva {
+  font-size: 25px;
+  background-color: #7E364F;
+  color: #F1F1E6;
+  padding: 15px;
+}
+
+.pregunta--nueva {
+  font-size: 25px;
+  border: 10px solid salmon;
+}
+
+/* Footer */
+.horarios {
   font-size: 30px;
   width: 200px;
   height: 100px;
   margin: 20px;
 }
-.logo .redes {
+
+.redes {
   font-size: 30px;
   width: 300px;
   align-self: auto;
 }
-.logo .redes i {
+.redes i {
   padding: 15px;
 }
-.logo .logoFooter {
+
+.logoFooter {
   font-size: 40px;
   align-self: center;
   justify-self: center;
 }
-.logo .derechos {
+
+.derechos {
   font-size: 30px;
   align-self: flex-start;
   width: 700px;
   height: auto;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/* Fin Footer *//*# sourceMappingURL=estilos.css.map */

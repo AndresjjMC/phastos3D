@@ -31,6 +31,7 @@ $font1: Verdana, Geneva, Tahoma, sans-serif;
 .navItems{
     font-size: 30px;
 }
+}
 /* Fin Header */
 /* Body */
 .fondo{
@@ -46,7 +47,7 @@ h1{
     font-family: $font1;
 }
 /* Seccion Inicio */
-.jumbotron 
+.jumbotron{
     
     h2{
     font-size: 30px;
@@ -56,34 +57,60 @@ h1{
 .carousel-inner{
     object-fit: cover;
 }
+}
 /* Fin Seccion Inicio */
-    /* Footer */
-
-    .horarios{
-        font-size: 30px;
+// Inicia seccion Preguntas Frecuentes
+$fonts: (
+    15px: red,
+    20px: orange,
+    25px: green,
+);
+@each $size, $color in $fonts {
+    .preg--#{$size} {
+        font-size: $size;
+        color: $color;
+        background-color: #627B82;
         width: 200px;
-        height:100px;
-        margin: 20px ;
-    }
-    .redes{
-        font-size: 30px;
-        width: 300px;
-        align-self: auto;
-        i{
-        padding: 15px;
-        }
-    }   
-    .logoFooter{
-        font-size: 40px;
-        align-self: center;
-        justify-self: center;
-    }
-    .derechos{
-        font-size: 30px;
-        align-self: flex-start;
-        width: 700px;
         height: auto;
     }
+}
+.pregunta {
+    font-size: 25px;
+    background-color: #7E364F;
+    color: #F1F1E6;
+    padding: 15px;
+}
+.pregunta--nueva{
+    @extend .pregunta;
+    font-size: 25px;
+    border: 10px solid salmon;
+}
+/* Footer */
+
+.horarios{
+    font-size: 30px;
+    width: 200px;
+    height:100px;
+    margin: 20px ;
+    }
+.redes{
+    font-size: 30px;
+    width: 300px;
+    align-self: auto;
+    i{
+        padding: 15px;
+    }
+}   
+.logoFooter{
+    font-size: 40px;
+    align-self: center;
+    justify-self: center;
+}
+.derechos{
+    font-size: 30px;
+    align-self: flex-start;
+    width: 700px;
+    height: auto;
+}
 
     /* Fin Footer */
-}
